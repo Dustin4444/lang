@@ -23,7 +23,7 @@ uages
 - #53 Adding caps letters to Latin-based African languages that have gflang profiles
 - #67 Add kana sample text
 
-## 0.4.5 (2023-Mars-22)
+## 0.4.5 (2023-Mar-22)
 - #65 Add Nag Mundari script
 
 ## 0.4.4 (2023-Feb-24)

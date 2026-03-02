@@ -7,7 +7,7 @@ You can also directly access the raw **textproto** files on the `Lib/gflanguages
 
 Most of the code in this project was copied from the `gftools` repository (https://github.com/googlefonts/gftools/) so that language/region/script data can be easily available to all our tools without having to also get the large dependency tree of `gftools`.
 
-The most immediate user of this module is the Google Fonts catalog (https://fonts.google.com/), which uses the language/region/script data to categorize the font families in the collection, and to provide information about language support on the family pages. See the (Google Fonts Catalog)[#google-fonts-catalog] section below to understand how the data is used in the catalog.
+The most immediate user of this module is the Google Fonts catalog (https://fonts.google.com/), which uses the language/region/script data to categorize the font families in the collection, and to provide information about language support on the family pages. See the [Google Fonts Catalog](#google-fonts-catalog) section below to understand how the data is used in the catalog.
 
 The second most obvious user of this module is [shaperglot](https://github.com/googlefonts/shaperglot), which needs to validate language support on font binaries being checked.
 
@@ -133,4 +133,4 @@ A language is deemed supported (binary) by the Google Fonts Catalog if any of th
 
 * The family has an assigned primary language exactly equal to the identifier of the language.
 * The family supports all `base` characters for a language with the `not_required` characters removed.
-* The family supports all characters in all sample text for the language except puncutation and spaces.
+* The family supports all characters in all sample text for the language except punctuation and spaces.
